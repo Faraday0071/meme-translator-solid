@@ -1,7 +1,9 @@
+import { MainLayout } from '@/layouts/MainLayout/MainLayout';
+
 export const CreateMemePage = () => {
   return (
-    <div>
+    <MainLayout>
       Create meme
-    </div>
+    </MainLayout>
   )
 };

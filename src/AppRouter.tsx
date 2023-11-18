@@ -3,7 +3,7 @@ import { Router, Route, Routes, Navigate } from '@solidjs/router';
 import { CreateMemePage } from '@/pages/CreateMemePage';
 import { TranslateMemePage } from '@/pages/TranslateMemePage';
 
-const PATHS = {
+export const PATHS = {
   translate: '/translation',
   create: '/creation',
   unfound: '/unfound',

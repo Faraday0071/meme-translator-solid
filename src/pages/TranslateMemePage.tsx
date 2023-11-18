@@ -1,7 +1,9 @@
+import { MainLayout } from '@/layouts/MainLayout/MainLayout';
+
 export const TranslateMemePage = () => {
   return (
-    <div>
+    <MainLayout>
       Translate meme
-    </div>
+    </MainLayout>
   )
 };
